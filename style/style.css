@@ -1,5 +1,5 @@
 section{
-    min-height: calc(100vh - 340px);
+    min-height: calc(100vh - 240px);
 }
 nav, footer{
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0.548), rgba(56, 31, 31, 0.507)), url(../medias/header-background.jpg);
@@ -13,3 +13,6 @@ nav, footer{
     min-height: 100%;
 }
 
+textarea{
+    resize: none;
+}
