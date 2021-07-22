@@ -1,7 +1,15 @@
-nav{
+section{
+    min-height: calc(100vh - 340px);
+}
+nav, footer{
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0.548), rgba(56, 31, 31, 0.507)), url(../medias/header-background.jpg);
     background-size: cover;
     background-position: center;
     filter: brightness(80%);
     
 }
+
+.news{
+    min-height: 100%;
+}
+
