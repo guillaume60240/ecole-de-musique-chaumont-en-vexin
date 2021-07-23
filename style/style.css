@@ -6,9 +6,10 @@ nav, footer{
     background-size: cover;
     background-position: center;
     filter: brightness(80%);
-    
 }
-
+a{
+    cursor: pointer;
+}
 .news{
     min-height: 100%;
 }
