@@ -1,0 +1,5 @@
+
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Sitemap: https://guillaume60240.github.io/ecole-de-musique-chaumont-en-vexin/sitemap.xml
