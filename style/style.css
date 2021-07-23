@@ -16,3 +16,6 @@ nav, footer{
 textarea{
     resize: none;
 }
+.bread{
+    background-image: none;
+}
