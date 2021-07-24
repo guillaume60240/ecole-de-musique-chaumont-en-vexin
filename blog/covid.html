@@ -7,14 +7,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="shortcut icon" href="./medias/notes.jpeg"/>
     <meta name="description" content="Présentation de l'école de musique de Chaumont-en-Vexin au travers de ses projets musicaux et de son équipe pédagogique. Cours de guitare, de chant, de batterie, de violon et violoncelle, cours de solfège et initiatiopn musicale.">
-    <meta name="robots" content="follow">
     <meta property="og:image" content="header-background.jpg">
     <meta property="og:type" content="Articles">
     <meta property="og:description" content="Présentation de l'école de musique de Chaumont-en-vexin, de ses concerts et stages musicaux">
     <meta property="og:locale" content="fr_FR">
     <meta property="og:title" content="Ecole de musique de Chaumont-en-Vexin">
-    <link rel="stylesheet" href="style/style.css">
-    <title>Ecole de musique de Chaumont-en-vexin, Accueil</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Ecole de musique de Chaumon-en-vexin, blog</title>
 </head>
 <body>
     <header class="sticky-top">
@@ -31,16 +30,16 @@
                 <div id="navbarText" class="collapse navbar-collapse">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="index.html" class="nav-link  text-nowrap active"> Accueil</a>
+                            <a href="../index.html" class="nav-link  text-nowrap "> Accueil</a>
                         </li>
                         <li class="nav-item">
-                            <a href="teacher.html" class="nav-link text-nowrap ">Les professeurs</a>
+                            <a href="../teacher.html" class="nav-link text-nowrap ">Les professeurs</a>
                         </li>
                         <li class="nav-item">
-                            <a href="blog.html" class="nav-link text-nowrap ">Le blog</a>
+                            <a href="../blog.html" class="nav-link  text-nowrap active">Le blog</a>
                         </li>
                         <li class="nav-item">
-                            <a href="events.html" class="nav-link text-nowrap ">Les évènements</a>
+                            <a href="../events.html" class="nav-link text-nowrap ">Les évènements</a>
                         </li>
                     </ul>
                 </div>
@@ -52,59 +51,107 @@
         <nav class="bread">
             <ul class="breadcrumb">
                 <li class="breadcrumb-item">
-                    <a href="#" class="link-info">Accueil</a>
+                    <a href="../index.html" class="link-info">Accueil</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="../blog.html" class="link-info">Blog</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="#" class="link-info">Annonces COVID</a>
                 </li>
             </ul>
         </nav>
         <div class="container">
-            <h2 class="text-center p-2 p-md-3 p-lg-5">Les nouveautés</h2>
+            <h1 class="text-info fs-4 text-md-center">COVID-19 // PASS SANITAIRE</h1>
+            <h2 class="fw-light fs-6 text-center">PASS SANITAIRE et établissements d'enseignements artistiques</h2>
+            <div class="container d-flex flex-column align-items-center">
 
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-4 mb-3 news">
-                    <div class="card m-2 h-100">
-                        <img src="./medias/covid.jpg" alt="masque et gel" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="alert alert-danger">Infos COVID</h5>
-                            <small class="fw-lighter">le 20/07/2021</small>
-                            <p>Le nouveau décret est paru et de nouvelles dispositions doivent être prises...</p>
-                        </div>
-                        <div class="card-footer bg-info">
-                            <a href="./blog/covid.html" class="text-decoration-none text-light" data-bs-toggle="tooltip" data-bs-placem="bottom" title="Section en cours de création">voir plus....</a> 
-                        </div>
-                    </div>
+                <div class="container d-flex flex-column mt-3 align-items-center flex-md-row" style="max-width: 800px;">
+                    <img src="../medias/pass-sanitaire.jpeg" alt="téléphone pass-sanitaire" style="width: 12rem; height: 8rem;" class="me-3 mb-3">
+                    <p>
+                        Le décret publié ce jour au JORF impose désormais et jusqu'à nouvel ordre la présentation du pass sanitaire dans les établissements d'enseignement artistique dans les ERP de type R qui peuvent accueillir plus de 50 personnes pour les "spectateurs extérieurs". <br>
+                        → Il semblerait donc qu'il ne soit pas à présenter pour les "élèves" dans le cadre du fonctionnement "habituel" des établissements (cours).
+                    </p>
                 </div>
-            
-                <div class="col-12 col-md-6 col-lg-4 mb-3 news">
-                    <div class="card m-2 h-100">
-                        <img src="./medias/concert.jpg" alt="violons en concert" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="alert alert-success">Concert de l'orchestre</h5>
-                            <small class="fw-lighter">le 22/06/2021</small>
-                            <p>Malgré une année particulière, le concert habituel a pu avoir lieu dans un lieu somptueux....</p>
-                        </div>
-                        <div class="card-footer bg-info">
-                            <a href="events.html#concert-article" class="text-decoration-none text-light" >voir plus....</a> 
-                        </div>
-                    </div>
-                </div>
-           
-                <div class="col-12 col-md-6 col-lg-4 mb-3 news">
-                    <div class="card m-2 h-100">
-                        <img src="./medias/stage.jpg" alt="batterie et guitare électrique" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="alert alert-success">Le stage estival</h5>
-                            <small class="fw-lighter">le 10/07/2021</small>
-                            <p>Comme à son habitude le professeur de guitare a organisé un stage de groupe pour travailler les musiques actuelles.....</p>
-                        </div>
-                        <div class="card-footer bg-info">
-                            <a href="events.html#stage-article" class="text-decoration-none text-light">voir plus....</a> 
-                        </div>
-                    </div>
+                <div class="container m-t-3" style="max-width: 800px;">
+
+                    <p>
+                        Subtilité pour les enseignements artistiques dont l'activité se déroule dans les gymnases. Pour les ERP de type X, la présentation du pass sanitaire est obligatoire, sans précision du public accueilli ni du type d'activité qui s'y déroule.
+                    </p>
+                    <p>
+                        Présentation du pass sanitaire dans les lieux de spectacles (ERP de type L)
+                        Concernant les professionnels travaillant dans les ERP, il reste sans doute un autre décret à suivre...!
+                    </p>
                 </div>
             </div>
         </div>
+
+        <div class="container" style="max-width: 800px;">
+            <h3 class="fs-6 fw-light p-3 border-top border-dark text-center text-info">
+                Concernant les documents à présenter :
+            </h3>
+            <p class="text-center"> 
+                Article 47-1 du décret n°2021-699
+            </p>
+            <p>
+                I. - Les personnes majeures doivent, pour être accueillies dans les établissements, lieux et évènements mentionnés aux II et III, présenter l'un des documents suivants :
+            </p>
+            <p>
+                1°) Le résultat d'un test ou examen de dépistage mentionné au 1° de l'article 2-2 réalisé moins de 48 heures avant l'accès à l'établissement, au lieu ou à l'évènement. Les seuls tests antigéniques pouvant être valablement présentés pour l'application du présent 1° sont ceux permettant la détection de la protéine N du SARS-CoV-2 ;
+            </p>
+            <p>
+                2°)  Un justificatif du statut vaccinal délivré dans les conditions mentionnées au 2° de l'article 2-2 ;
+            </p>
+            <p>
+                3°)  Un certificat de rétablissement délivré dans les conditions mentionnées au 3° de l'article 2-2.
+            </p>
+            <p>
+                La présentation de ces documents est contrôlée dans les conditions mentionnées à l'article 2-3.
+            </p>
+            <p>
+                A défaut de présentation de l'un de ces documents, l'accès à l'établissement, au lieu ou à l'évènement est refusé.
+            </p>
+        </div>
+        <div class="container" style="max-width: 800px;">
+            <h3 class="fs-6 fw-light p-3 border-top border-dark text-center text-info">
+                Concernant les lieux où le présenter depuis le décret 2021-995 du 19 juillet 2021 :
+            </h3>
+            <p class="text-center"> 
+                Article 47-1 du décret n°2021-699
+            </p>
+            <p>
+                II. - Les documents mentionnés au I doivent être présentés pour l'accès aux établissements, lieux et évènements suivants, lorsqu'ils accueillent un nombre de visiteurs, spectateurs, clients ou passagers au moins égal à 50 personnes :
+            </p>
+            <p>
+                a) Les salles d'auditions, de conférences, de projection, de réunions, de spectacles ou à usages multiples, relevant du type L ; <br>
+                [...]
+            </p>
+            <p>
+                c) Les établissements mentionnés au 10° de l'article 34 et au 6° de l'article 35, relevant du type R, lorsqu'ils accueillent des spectateurs extérieurs ; <br>
+                [...]
+            </p>
+            <p>
+                g) Les établissements sportifs couverts, relevant du type X ; <br>
+                [...]
+            </p>
+            <p>
+                Le seuil de 50 personnes mentionné au premier alinéa du présent II est déterminé en fonction du nombre de personnes dont l'accueil est prévu par l'exploitant de l'établissement ou du lieu ou par l'organisateur de l'événement, en fonction des règles qui leur sont applicables et des limitations prévues par le présent décret. <br>
+                [...]
+            </p>
+            <p>
+                IV. - Les obligations de port du masque prévues au présent décret ne sont pas applicables aux personnes ayant accédé aux établissements, lieux et événements dans les conditions prévues au présent article. Le port du masque peut toutefois être rendu obligatoire par le préfet de département lorsque les circonstances locales le justifient, ainsi que par l'exploitant ou l'organisateur. »
+            </p>
+            <p>
+                <a href="https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043806125" _blank class="link-danger alert-link">Texte officiel</a>
+                <p>
+                    <small> 
+                        NB : les personnes accédant à ces établissements avec présentation des documents prévus seront dispensées du port du masque, sauf obligation préfectorale ou de l’organisateur ou exploitant.
+                    </small>
+                </p>
+            </p>
+        </div>
     </section>
-    
+
     <footer class="bg-dark text-white p-2">
         <div class="container mt-3 w-100 d-flex flex-column flex-md-row justify-content-around">
            <a class=" text-white fw-lighter  p-1 text-start text-decoration-none w-50 w-md-25" data-bs-toggle="modal" data-bs-target="#aPropos" aria-pressed="true">A propos</a>
@@ -114,7 +161,7 @@
         </div>
         <p class="text-end m-1 fw-lighter fs-6 fst-italic">© Guillaume Lepoetre</p>
     </footer>
-    
+
     <!-- modales  -->
     <div id="aPropos" class="modal fade" data-bs-backdrop="static">
         <div class="modal-dialog modal-dialog-centered">
@@ -188,7 +235,7 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header ">
-                    <h5>La liste des tarifs*</h5>
+                    <h5>La liste des tarifs</h5>
                     <button class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="modal-body">
@@ -249,33 +296,16 @@
                 </div>
                 <div class="modal-footer">
                     <p>
-                        04 rue de l'hôtel de ville </br>
+                        04 rue Emile Deschamps </br>
                         60240 Chaumont-en-Vexin
                     </p>
             </div>
         </div>
     </div>
-   
-
+    
 
     <!-- Dépendance JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    <!-- script pour les infos bulles -->
-    <script>
-        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-        return new bootstrap.Tooltip(tooltipTriggerEl)
-        })
-    </script>
-
-    <!-- script pour les popovers -->
-    <!-- <script>
-        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-        return new bootstrap.Popover(popoverTriggerEl)
-        })
-    </script> -->
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 </html>
